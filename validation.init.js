@@ -13,11 +13,11 @@ validation = {
             },
             messages: {
                 'phone-dgp': {
-                    required: 'Este dato es requerido',
+                    required: 'some error',
                 },
                 'country-code': {
-                    required: 'Este dato es requerido',
-                    isoCountryPhone: 'El número de teléfono no coincide con el pasi seleccionado',
+                    required: 'some error',
+                    isoCountryPhone: 'some error',
                 },
             }
         });
